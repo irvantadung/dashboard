@@ -7,7 +7,7 @@ from html import escape
 from urllib.parse import urlparse
 
 import bcrypt
-import httpx
+import http
 import jwt
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException, Request, Response
 from pydantic import BaseModel, EmailStr
